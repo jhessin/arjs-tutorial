@@ -4,6 +4,9 @@ import express from "express";
 
 const app = express();
 app.use(express.static("www"));
+app.get("/", (_req, res) => {
+  res.send("Welcome to my static server");
+});
 
 const options = {
   key: fs.readFileSync("./localhost-key.pem"),
