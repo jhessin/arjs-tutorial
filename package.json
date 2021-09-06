@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/express": "^4",
     "@types/node": "^16.7.10",
+    "@types/w3c-image-capture": "^1.0.5",
     "nodemon": "^2.0.12",
     "ts-node": "^10.2.1"
   }
