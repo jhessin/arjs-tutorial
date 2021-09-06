@@ -3,7 +3,7 @@ import https from "https";
 import express from "express";
 
 const app = express();
-app.use(express.static("www"));
+app.use(express.static("docs"));
 app.get("/", (_req, res) => {
   res.send("Welcome to my static server");
 });
